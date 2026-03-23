@@ -1,6 +1,7 @@
 ## Project Overview
 As a COTA transitioning into Healthcare Analystics, I analyzed a large dataset of 100k patient records to identify main key factors contributing to re-admissions. 
 ## Interactive Dashboard
+![Dasboard Screenshot](Excel%20Screenshot.png)
 Bar Chart to show the risk highest is in the first few days.
 Pivot table to provide percentages of the raw numbers
 Slicer to change how each age bracket affect the graphs.
