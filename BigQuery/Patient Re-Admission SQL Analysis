@@ -1,0 +1,11 @@
+-- Query to identify the high-risk age groups by readmission volume.
+SELECT 
+age,
+COUNT(*) AS readmission_count
+FROM `ancient-torch-484119-h1.HospitalReadmissions.Healthcare Data` 
+WHERE
+readmitted != 'NO'
+GROUP BY
+age
+ORDER BY
+readmission_count DESC;
